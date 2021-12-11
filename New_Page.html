@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <title>Ankush</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="New_css.css">
+    </head>
+
+    <body>
+    <div id="outer">
+        <div id="inner">
+            <center>
+            <table>
+                <tr>
+                    
+                    <td>
+                        <input type="text"  id="username" placeholder="Username" class="table-content form-control">
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <input type="password" id="password" placeholder="Password" class="table-content form-control">
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <button class="btn btn-primary table-content pb-5" id="Log_in"> Log in </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p id="Warning" ></p>
+                    </td>
+                </tr>
+                
+            </table>
+        </center>
+        </div>
+    </div>
+    
+    <div>
+    <ul class="nav nav-pills bg-secondary bg-gradient nav-justified p-3"  id="nav"> 
+        <li class="nav-item"> 
+        <!--<a class="nav-link active " aria-current="page" href="https://www.youtube.com/watch?v=2fj3aG6ubLI" id="Users">Users</a>-->
+          <button class="btn btn-primary " id="Users"> Users</button>
+        </li>
+        <li>
+            <p>&emsp;</p>
+        </li>
+        <li class="nav-item">
+          <!--<class="nav-link active " href="https://www.youtube.com/watch?v=k6O0lLFN8tE" id="L_Keys">License Keys</a>--> 
+          <button class="btn btn-primary " id="L_Keys"> License Keys</button>
+        </li>
+        <li>
+            <p>&emsp;</p>
+        </li>
+        <li class="nav-item">
+          <!--<a class="nav-link active " href="https://www.youtube.com/watch?v=hBX6fJ3mVNo" id="A_Users">Admin Users</a>-->
+          <button class="btn btn-primary " id="A_Users"> Admin Users</button>
+        </li>
+      </ul>
+      <div id="table1">
+          <table>
+              <tr>
+                  <th>User_id</th>
+                  <th>Username</th>
+                  <th>Password</th>
+                  <th>Key</th>
+                  <th>System_Id</th>
+                  
+              </tr>
+              <tr>
+                  <td>
+                      <ul id="U_User_id">
+                          <!--<li>tea</li>
+                          <li>tea</li>
+                          <li>tea</li>
+                          <li>tea</li>
+                          <li>tea</li>-->
+                      </ul>
+                  </td>
+
+                  <td>
+                    <ul id="U_Username">
+                        <!--<li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>-->
+                    </ul>
+                  </td>
+
+                <td>
+                    <ul id="U_Password">
+                        <!--<li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>-->
+                    </ul>
+                </td>
+
+                <td>
+                    <ul id="U_Key">
+                        <!--<li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>-->
+                    </ul>
+                </td>
+
+                <td>
+                    <ul id="U_System_id">
+                        <!--<li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>-->
+                    </ul>
+                </td>
+                
+
+              </tr>
+          </table>
+      </div>
+      <div id="table2">
+        <button type="button" class="btn btn-primary ms-5 mt-3" id="Enable" >Enable</button>
+        <button type="button" class="btn btn-primary ms-5 mt-3" id="Disable" >Disable</button>
+        <table >
+            <tr>
+                <th>License_Key</th>
+                <th>Is_Valid</th>
+                
+            </tr>
+            <tr>
+                <td>
+                    <table class="No_border">
+                        <tr class="No_border">
+                            <td class="No_border radio">
+                                <ul id="L_radio">
+                                    <!--<li>tea</li>
+                                    <li>tea</li>
+                                    <li>tea</li>
+                                    <li>tea</li>
+                                    <li>tea</li>-->
+                                </ul></td>
+                            <td class="No_border">
+                                <ul id="L_License_Key">
+                                    <!--<li>tea</li>
+                                    <li>tea</li>
+                                    <li>tea</li>
+                                    <li>tea</li>
+                                    <li>tea</li>-->
+                                </ul></td>
+                            </td>
+                        </tr>
+
+                    </table>
+                    
+                </td>
+
+                <td>
+                    <ul id="L_Is_Valid">
+                        <!--<li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>-->
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <button class="btn btn-primary ms-5 mt-3" id="Add_License">Add License Key</button> 
+    </div>
+    <div id="table3">
+        <table >
+            <tr>
+                
+                <th>Username</th>
+                <th>Password</th>
+                
+            </tr>
+            <tr>
+                <td>
+                    <ul id="A_Username">
+                        <!--<li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>-->
+                    </ul>
+                </td>
+
+                <td>
+                    <ul id="A_Password">
+                        <!--<li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>
+                        <li>tea</li>-->
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <button class="btn btn-primary ms-5 mt-3" id="Add_user">Add User</button>
+        <button class="btn btn-primary ms-5 mt-3" id="Remove_user">Remove User</button>
+        
+    </div>
+</div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="New_script.js"></script>
+    </body>
+</html>
